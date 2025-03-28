@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+ 
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #2C3333;
+}
+img{
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+h1{
+    font-size: 2vw;
+    font-family: 'Dela Gothic One', sans-serif;
+    position: absolute;
+    top: 20px;
+    color: #2C3333;
+    margin-left: 20px;
+}
+@media  screen and (max-width:1100px) {
+    h1{
+        font-size: 2.6vw;
+    }
+}
+
+/* ***************************CONTENT***************************** */
+
+.content{
+    display: flex;
+}
+
+.links li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'AR One Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.links li {
+    list-style: none;
+    background-color: #2C3333;
+    margin: 1px 20px;
+    padding: 0 5px;
+    border-radius: 4px;
+    display: inline-block;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.links li:hover{
+    background-color: rgb(130, 130, 143);
+}
+.headerMainNav{
+    border :0px solid #2C3333;
+    border-bottom:1px dashed;
+}
+.description{
+    padding: 20px;
+    width: 60%;
+    border-right:1px dashed;
+    border-bottom:1px dashed;
+}
+.description h2{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 100 ;
+    color: #747575;
+}
+.description p{
+    font-family: 'AR One Sans', sans-serif;
+
+}
+
+.sidebar{
+    padding: 30px 20px;
+    border-bottom: 1px dashed;
+    width: 40%;
+}
+.sidebar h4{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 100;
+    color: #747575;
+}
+.sidebar ul a{
+    text-decoration: none;
+    color: black;
+    font-family: 'AR One Sans', sans-serif;
+}
+.sidebar li{
+    list-style: none;
+}
+ 
+
+/* *******************************FOOTER************************************************** */
+
+footer{
+    font-family: 'AR One Sans', sans-serif;
+    padding: 40px 0px 20px 20px;
+}

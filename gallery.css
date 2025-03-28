@@ -1,0 +1,7 @@
+.content .description img{
+    border-radius: 5px;
+    width: 98%;
+}
+td{
+    cursor: pointer;
+}
